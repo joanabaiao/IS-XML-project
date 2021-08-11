@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 78, 126);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(54, 128, 205);
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+hr {
+    border-top: 1px solid rgb(0, 43, 87);
+}
+
+.top {
+    background-image: linear-gradient(180deg, rgb(239, 248, 255), rgb(255, 255, 255));
+}
+
+/* --------- STATISTICS --------- */
+.statistics {
+    padding: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container h3 {
+    margin-right: 3px;
+    color: rgb(30, 78, 126);
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.flex-container p {
+    color: rgb(30, 78, 126);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* --------- TOP N --------- */
+.styled-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    font-size: 17px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table thead tr {
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* --------- DIRECTOR --------- */
+.headline {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.headline h3 {
+    color: rgb(0, 43, 87);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.director{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.director h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.divider-transparent
+{
+    position: relative;
+	height: 1px;
+    width: 40%;
+    background-image: linear-gradient(to right,rgb(110, 165, 223), transparent);
+}
+
+/* --------- MOVIE --------- */
+.movie {
+    background: rgb(235, 242, 250);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: top;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.movies-details {
+    margin-left: 30px;
+}
+
+.movies-details h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.movies-details h4 {
+    display: inline;
+    font-weight: 500;
+}
+
+.movies-details p {
+    display: inline;
+}
+
+.movies-details pre {
+    display: inline;
+}
+
+.br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+img{
+    width:150px;
+    height:200px;
+    margin-top: 5px;
+}
+
+/* --------- FOOTER --------- */
+footer {
+    margin-top: 50px;
+    padding: auto;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(54, 128, 205);
+    color: white;
+}
+
