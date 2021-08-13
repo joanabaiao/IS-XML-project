@@ -7,3 +7,5 @@ Usage of XML technologies and techniques for reading, validating, processing, an
 document (based on user preferences).
 - **II - Processor:** Converts the XML document, produced in Part I, to another XML document (which essentially reorganizes the information and adds some information).
 - **III - HTMLViewer:** Converts the XML document, produced in Part II, to HTML using XSLT.
+
+<img src="images/1.png" width="500"/> <img src="images/2.png" width="500"/> 
